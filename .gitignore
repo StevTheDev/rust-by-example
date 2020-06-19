@@ -1,3 +1,11 @@
+# Ignore executables with no extension
+# First ignore Everything
+*
+# Second add back all files with extenstions
+!*.*
+# Third add back directories 
+!*/ 
+
 book
 
 # Auto-generated files from macOS
